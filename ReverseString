@@ -22,12 +22,9 @@ public class Solution {
        {
            char temp = s[i];
            s[i] = s[s.Length-1-i];
-           s[s.Length-1-i] = temp;
-                      
+           s[s.Length-1-i] = temp;                     
        }
-      
     }  
-    
 }
 
 // for loop to swap 
